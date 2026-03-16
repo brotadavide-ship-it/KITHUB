@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KitLab - Maglie da Calcio Originali</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial, sans-serif;
+background:#0D0D0D;
+color:white;
+}
+
+header{
+position:fixed;
+top:0;
+width:100%;
+background:#0D0D0D;
+padding:15px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+border-bottom:1px solid #222;
+z-index:1000;
+}
+
+.logo{
+font-size:24px;
+font-weight:bold;
+color:#1DB954;
+}
+
+nav a{
+margin:0 12px;
+color:white;
+text-decoration:none;
+font-size:14px;
+}
+
+.hero{
+margin-top:80px;
+text-align:center;
+padding:80px 20px;
+background:linear-gradient(#0D0D0D,#1a1a1a);
+}
+
+.hero h1{
+font-size:42px;
+}
+
+.hero p{
+font-size:18px;
+color:#ccc;
+}
+
+.btn{
+display:inline-block;
+margin:10px;
+padding:12px 25px;
+background:#1DB954;
+color:white;
+border-radius:6px;
+text-decoration:none;
+}
+
+.section{
+padding:60px 10%;
+}
+
+.section h2{
+margin-bottom:30px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.card{
+background:#1a1a1a;
+border-radius:10px;
+padding:15px;
+transition:0.3s;
+}
+
+.card:hover{
+transform:scale(1.03);
+}
+
+.card img{
+width:100%;
+border-radius:8px;
+}
+
+.price{
+color:#1DB954;
+font-weight:bold;
+}
+
+.badge{
+background:gold;
+color:black;
+padding:3px 6px;
+font-size:12px;
+border-radius:4px;
+}
+
+footer{
+background:black;
+padding:40px;
+text-align:center;
+margin-top:40px;
+}
+
+input{
+padding:10px;
+border-radius:5px;
+border:none;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">KitLab</div>
+
+<nav>
+<a href="#">Catalogo</a>
+<a href="#">Serie A</a>
+<a href="#">Retro</a>
+<a href="#">Mystery Box 🎁</a>
+<a href="#">Contatti</a>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<h1>Indossa la Storia. Vivi la Passione.</h1>
+
+<p>Maglie originali e retro delle squadre che ami</p>
+
+<a class="btn">Esplora il Catalogo</a>
+
+<a class="btn">Scopri le Mystery Box 🎁</a>
+
+</section>
+
+<section class="section">
+
+<h2>Squadre in Evidenza</h2>
+
+<div class="grid">
+
+<div class="card">Juventus</div>
+<div class="card">Inter</div>
+<div class="card">Milan</div>
+<div class="card">Napoli</div>
+<div class="card">Roma</div>
+<div class="card">Lazio</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<h2>Ultimi Arrivi</h2>
+
+<div class="grid">
+
+<div class="card">
+
+<img src="https://i.imgur.com/Xk9GQ2N.png">
+
+<h3>Maglia Home Juventus 2023/24</h3>
+
+<p>Tipo: Home</p>
+
+<p class="price">€74.99</p>
+
+</div>
+
+<div class="card">
+
+<img src="https://i.imgur.com/Xk9GQ2N.png">
+
+<h3>Maglia Away Milan 2024</h3>
+
+<p>Tipo: Away</p>
+
+<p class="price">€69.99</p>
+
+</div>
+
+<div class="card">
+
+<img src="https://i.imgur.com/Xk9GQ2N.png">
+
+<h3>Maglia Napoli 2022</h3>
+
+<p>Tipo: Home</p>
+
+<p class="price">€64.99</p>
+
+</div>
+
+<div class="card">
+
+<img src="https://i.imgur.com/Xk9GQ2N.png">
+
+<h3>Maglia Inter Retro 1998</h3>
+
+<span class="badge">RETRO</span>
+
+<p class="price">€89.99</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="section" style="background:#111">
+
+<h2>Mystery Box 🎁</h2>
+
+<div class="grid">
+
+<div class="card">
+
+<h3>Box Starter</h3>
+
+<p>1 maglia casuale Serie A</p>
+
+<p class="price">€29.99</p>
+
+<button class="btn">Acquista</button>
+
+</div>
+
+<div class="card">
+
+<h3>Box Legend</h3>
+
+<p>2 maglie (1 moderna + 1 retro)</p>
+
+<p class="price">€59.99</p>
+
+<button class="btn">Acquista</button>
+
+</div>
+
+<div class="card">
+
+<h3>Box Ultimate</h3>
+
+<p>3 maglie premium</p>
+
+<p class="price">€99.99</p>
+
+<button class="btn">Acquista</button>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<h2>Recensioni Clienti</h2>
+
+<div class="grid">
+
+<div class="card">
+⭐⭐⭐⭐⭐  
+"Maglia perfetta! Spedizione velocissima."  
+— Marco R.
+</div>
+
+<div class="card">
+⭐⭐⭐⭐⭐  
+"La Mystery Box è stata una sorpresa incredibile!"  
+— Luca B.
+</div>
+
+<div class="card">
+⭐⭐⭐⭐⭐  
+"Finalmente un sito con maglie retro vere."  
+— Davide S.
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<h3>Newsletter</h3>
+
+<p>Ricevi le novità e le offerte esclusive</p>
+
+<input placeholder="La tua email">
+
+<button class="btn">Iscriviti</button>
+
+<p style="margin-top:30px;">© 2026 KitLab</p>
+
+</footer>
+
+</body>
+</html>
